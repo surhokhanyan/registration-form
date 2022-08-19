@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#main {
+  width: 100%;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#AA45AF), to(#F4429A));
+  background: linear-gradient(90deg, #AA45AF, #F4429A);
+}
+
+#main #singIn {
+  width: 500px;
+  height: 650px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main #singIn h3 {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 48px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main #singIn #formMain {
+  width: 400px;
+  height: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main #singIn #formMain #signInUp {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #bebebe;
+}
+
+#main #singIn #formMain #signInUp #btnIn {
+  width: 50%;
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 26px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: -webkit-gradient(linear, left top, right top, from(#AA45AF), to(#F4429A));
+  background: linear-gradient(90deg, #AA45AF, #F4429A);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#main #singIn #formMain #signInUp #btnUp {
+  width: 50%;
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 26px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+#main #singIn #formMain #inputDiv {
+  width: 100%;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main #singIn #formMain #inputDiv input {
+  width: 100%;
+  height: 70px;
+  border: 1px solid #bebebe;
+  outline: none;
+  padding-left: 20px;
+  font-size: 20px;
+  color: #bebebe;
+  border-radius: 10px;
+  border: 1px solid #bebebe;
+}
+
+#main #singIn #formMain #inputDiv p {
+  font-size: 19px;
+  color: #F4429A;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+#main #singIn #formMain #inputDiv #passwordRegEx {
+  font-size: 14px;
+  color: red;
+  display: none;
+}
+
+#main #singIn #formMain #btnLogin {
+  width: 100%;
+  height: 69px;
+  background: -webkit-gradient(linear, left top, right top, from(#AA45AF), to(#F4429A));
+  background: linear-gradient(90deg, #AA45AF, #F4429A);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+  -webkit-transition: ease-in-out .5s;
+  transition: ease-in-out .5s;
+  cursor: pointer;
+}
+
+#main #singIn #formMain #btnLogin:hover {
+  background: transparent;
+  border: 2px solid #AA45AF;
+  color: #F4429A;
+}
+
+#main #singIn #formBottom {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main #singIn #formBottom p {
+  font-size: 19px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main #singIn #formBottom p span {
+  color: #F4429A;
+  cursor: pointer;
+}
+
+#main #signUp {
+  width: 500px;
+  height: 850px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: none;
+}
+
+#main #signUp h3 {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 48px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main #signUp #regFormMain {
+  width: 400px;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main #signUp #regFormMain #regsignInUp {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #bebebe;
+}
+
+#main #signUp #regFormMain #regsignInUp #regBtnIn {
+  width: 50%;
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 26px;
+  color: black;
+  background-color: transparent;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+#main #signUp #regFormMain #regsignInUp #regBtnUp {
+  width: 50%;
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#AA45AF), to(#F4429A));
+  background: linear-gradient(90deg, #AA45AF, #F4429A);
+  border-radius: 10px;
+  font-size: 26px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+#main #signUp #regFormMain #regInputDiv {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main #signUp #regFormMain #regInputDiv input {
+  width: 100%;
+  height: 70px;
+  border: 1px solid #bebebe;
+  outline: none;
+  padding-left: 20px;
+  font-size: 20px;
+  color: #bebebe;
+  border-radius: 10px;
+  border: 1px solid #bebebe;
+}
+
+#main #signUp #regFormMain #regInputDiv #forGender {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#main #signUp #regFormMain #regInputDiv #forGender label {
+  width: 50%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+}
+
+#main #signUp #regFormMain #regInputDiv #forGender input {
+  width: 30px;
+  height: 30px;
+}
+
+#main #signUp #regFormMain #regInputDiv p {
+  font-size: 14px;
+  color: red;
+  display: none;
+}
+
+#main #signUp #regFormMain #regBtnRegister {
+  width: 100%;
+  height: 69px;
+  background: -webkit-gradient(linear, left top, right top, from(#AA45AF), to(#F4429A));
+  background: linear-gradient(90deg, #AA45AF, #F4429A);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+  -webkit-transition: ease-in-out .5s;
+  transition: ease-in-out .5s;
+  cursor: pointer;
+}
+
+#main #signUp #regFormMain #regBtnRegister:hover {
+  background: transparent;
+  border: 2px solid #AA45AF;
+  color: #F4429A;
+}
+/*# sourceMappingURL=style.css.map */

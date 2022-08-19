@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="CSS/mixins.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="main">
+        <div id="singIn">
+            <h3>Login Form</h3>
+            <div id="formMain">
+                <div id="signInUp">
+                    <button id="btnIn">Login</button>
+                    <button id="btnUp">SignUp</button>
+                </div>
+                <div id="inputDiv">
+                    <input type="email" placeholder="Email Address" id="login">
+                    <input type="password" placeholder="Password" id="loginPassword">
+                    <p id="passwordRegEx">The email or password is incorrect</p>
+                    <p>Forgot password?</p>
+                </div>
+                <button id="btnLogin">Login</button>
+            </div>
+            <div id="formBottom">
+                <p>Not a member? <span>Signup now</span></p>
+            </div>
+        </div>
+        <div id="signUp">
+            <h3>Registration Form</h3>
+            <div id="regFormMain">
+                <div id="regsignInUp">
+                    <button id="regBtnIn">Login</button>
+                    <button id="regBtnUp">SignUp</button>
+                </div>
+                <div id="regInputDiv">
+                    <input type="text" placeholder="First name" id="firstName">
+                    <p id="firstP">You can't use space and first letter must be a capital</p>
+                    <input type="text" placeholder="Last name" id="lastName">
+                    <p id="lastP">First letter must be a capital</p>
+                    <input type="text" placeholder="Email" id="emailMobile">
+                    <p id="emailP">Write a valid Email</p>
+                    <input type="password" placeholder="New password" id="password">
+                    <p id="passwordP">Password must contain capital letter, and character</p>
+                    <input type="date" id="date">
+                    <div id="forGender">
+                        <label for="male">Male
+                            <input type="radio" name="gender" id="male">
+                        </label>
+                        <label for="female">Female
+                            <input type="radio" id="female" name="gender">
+                        </label>
+                    </div>
+                    
+                </div>
+                <button id="regBtnRegister">Register</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS link -->
+    <script src="JS/script.js"></script>
+</body>
+</html>
